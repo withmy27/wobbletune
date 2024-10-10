@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	margin-top: 50px;
+	background-color: #f0f0f0;
+}
+
+canvas {
+	border: 2px solid #1e1b1b;
+	width: 90%;
+}
+
+button:hover {
+	transform: scale(0.96);
+	transition: transform 0.25s ease-in-out;
+}
+
+button {
+	color: #f0f0f0;
+	background-color: #1e1b1b;
+	border: 2px solid #1e1b1b;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	transition: transform 0.2s ease-in-out;
+}
+
+#showFreq {
+	font-size: 20px;
+	margin: 0;
+	margin-top: 18px;
+}
+
+#showNote {
+	font-size: 40px;
+	margin: 0;
+	margin-top: 18px;
+}
